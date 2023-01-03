@@ -1,0 +1,21 @@
+.blog {
+  background-color: red;
+  border: 20px;
+  margin: 10px;
+  padding: 30px;
+}
+.head {
+  height: 400px;
+  /*background-image: url('download.jpg'); this is used when image is in css folder*/
+  /*background-image: url('../download.jpg'); this is used when image is one folder above of css folder*/
+  background-image: url('../suzy/suzy\ 1.JPG'); /*this is used when  the image folder is one folder above of css folder*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.website {
+  color: yellow;
+}
+h3 {
+  text-decoration: underline wavy yellow;
+}

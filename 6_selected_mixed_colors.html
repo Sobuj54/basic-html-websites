@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>selected mixed coloring.</title>
+    <style>
+      .css {
+        color: green;
+      }
+      .bg_color {
+        background-color: blue;
+      }
+      p,  /*this way we can add same style into multiple tags by using comma */
+      h3 {
+        font-style: italic;
+      }
+      li.food {
+        /*this way we can style specific tags among same tags by using class */
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      we are learning
+      <span class="css">css</span>
+      styling.
+    </p>
+    <p>we also take notes of the classes.</p>
+    <p>it takes aroung 4 months to learn web development.</p>
+    <div class="bg_color">
+      <h3>this is my blog</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem,
+        accusamus.
+      </p>
+      <p>
+        Lorem ipsum dolor sit
+        <span class="css">amet consectetur adipisicing elit</span>
+        . Sequi quaerat amet eum doloremque maxime, esse iste eaque! Maxime quo
+        quis provident, quam laborum similique tempore dignissimos placeat!
+        Eligendi, dolores et.
+      </p>
+    </div>
+    <ol type="i">
+      <h3>list of groceries.</h3>
+      <li>cauliflower</li>
+      <li class="css">salt</li>
+      <li>eggs</li>
+      <li class="food">rice</li>
+    </ol>
+  </body>
+</html>
